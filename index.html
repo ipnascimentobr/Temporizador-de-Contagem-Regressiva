@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Temporizador de Contagem Regressiva</h1>
+        <form id="timerForm">
+            <input type="number" id="hours" placeholder="Horas" min="0">
+            <input type="number" id="minutes" placeholder="Minutos" min="0">
+            <input type="number" id="seconds" placeholder="Segundos" min="0">
+            <button type="button" id="startButton">Iniciar</button>
+            <button type="button" id="stopButton">Parar</button>
+        </form>
+        <div id="timerDisplay">00:00:00</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
